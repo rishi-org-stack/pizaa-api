@@ -8,7 +8,7 @@ APIs:
 
 2 square/== will create a pizza of type "square" and insert it into database it size is already present in ur database 
 
-3  square/<siz>/listall/ == will list all square pizza of thate particular size
+3  square/siz/listall/ == will list all square pizza of thate particular size
 
 4  regular/<siz>/listall/ == will list all regular pizza of thate particular size
 

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tst</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <form method="POST" action="/{{typeofpizza}}/">
+            {%csrf_token%}
+            <input type="text" name="size" id="" value="size">
+            <input type="text" name="topping" id="" value="topping">
+            <input type="submit" value="">
+        </form>
+    </body>
+</html>

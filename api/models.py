@@ -1,6 +1,7 @@
 from pymongo import *
-client = MongoClient('localhost', 27017)
+client = MongoClient("mongodb+srv://rishijha1709:rishijha1709@cluster0.2lkrw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 db = client.test
+
 
 
 class object():

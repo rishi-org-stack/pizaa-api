@@ -59,7 +59,7 @@ class sizeView(View):
             s= size(szn)
             id = s.insertaobject(s.todict(),s.coll)
             res.success[200]["id"] = str(id)
-            return HttpResponse(res.success[200])
+            return HttpResponse(json.dumps(res.success[200]))
         else:
             return HttpResponse(json.dumps(res.errors[403]))
 

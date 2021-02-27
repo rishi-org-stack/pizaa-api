@@ -1,7 +1,7 @@
 # pizaa-api
 
 COMMANDS:
-  1 To Run: python manage.py runserver
+  1 To Run: python manage.py runserve
   
 APIs:
 1 regular/ == will create a pizza of type "regular" and will insert it into database if size is already present in database 
@@ -17,3 +17,7 @@ APIs:
 6 update/typeof/id/size/ == will update size of  pizza with that id and type
 
 7 delete/id/ == delete will delete pizza with that id
+Disclaimer 
+
+api/models.py 
+Change that string inside mongoclient("your cluster")

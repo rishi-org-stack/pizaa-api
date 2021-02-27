@@ -2,6 +2,8 @@
 
 COMMANDS:
   1 To Run: python manage.py runserve
+  2 important::: pip install pymongo[srv] //run this command
+
   
 APIs:
 1 regular/ == will create a pizza of type "regular" and will insert it into database if size is already present in database 

@@ -14,6 +14,6 @@ APIs:
 
 5 size/ == will add  asize in database
 
-6 update/<typeof>/<id>/<siz> == will update size of  pizza with that id and type
+6 update/<typeof>/<id>/<siz>/ == will update size of  pizza with that id and type
 
-7 delete/<id>/ delete will delete pizza with that id
+7 delete/<id>/ == delete will delete pizza with that id
